@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="plantform:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="plantform.war">
-      <element id="artifact" artifact-name="plantform:war exploded" />
-    </root>
-  </artifact>
-</component>
