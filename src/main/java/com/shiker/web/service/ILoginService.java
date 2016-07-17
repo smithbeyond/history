@@ -1,7 +1,13 @@
 package com.shiker.web.service;
 
+import java.util.List;
+import java.util.Map;
+
 /**
- * Created by guohaifeng on 2016/6/23.
+ * @author guohaifeng
+ *         2016/7/16
+ * @file
  */
 public interface ILoginService {
+    public List<Map<String, Object>> login();
 }
