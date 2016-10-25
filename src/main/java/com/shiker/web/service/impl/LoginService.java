@@ -15,9 +15,9 @@ import java.util.Map;
 @Service("loginService")
 public class LoginService implements ILoginService {
     @Resource(name = "loginDao")
-    private ILoginDao loginDao;
+    private ILoginDao loginDaoo;
     public List<Map<String, Object>> login() {
         System.out.println("here is LoginService");
-        return loginDao.getUser(new HashMap<String, Object>());
+        return loginDaoo.getUser(new HashMap<String, Object>());
     }
 }

@@ -5,6 +5,7 @@
 
 <mapper namespace="com.shiker.web.dao.ILoginDao">
     <cache flushInterval="60000" size="512" eviction="LRU" readOnly="true"/>
+
     <select id="getUser" statementType="PREPARED" resultType="java.util.HashMap">
         SELECT * FROM user
     </select>
